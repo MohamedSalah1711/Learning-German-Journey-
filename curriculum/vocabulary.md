@@ -38,3 +38,10 @@ Only terms introduced during real study are listed. No post-reset mastery has be
 | W030 | als | — | كـ (مهنة) | preposition | introduced_or_practiced_text_only | C11/C14 |
 | W031 | aus | — | من (بلد) | preposition | introduced_or_practiced_text_only | C06 |
 | W032 | Mir geht es gut | — | أنا كويس | phrase | introduced_or_practiced_text_only | C03/C04 |
+
+| W033 | kein | kein/keine/keinen | مفيش / ولا (نفي اسم) | negative determiner | introduced; practice pending | 2026-10-09-S02 |
+| W034 | das Buch | Bücher | كتاب | noun | introduced | 2026-10-09-S02 |
+| W035 | der Bruder | Brüder | أخ | noun | introduced | 2026-10-09-S02, E32 |
+| W036 | die Tasche | Taschen | شنطة | noun | introduced | 2026-10-09-S02, E30 |
+| W037 | das Auto | Autos | عربية | noun | introduced | 2026-10-09-S02, E34 |
+| W038 | der Tisch | Tische | ترابيزة | noun | introduced | 2026-10-09-S02 |
