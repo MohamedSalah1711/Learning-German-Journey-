@@ -4,42 +4,35 @@ Last reset: **2026-10-09**.
 
 ## Study summary
 
-- Current level goal: **A1**; this is not certification of complete A1.
-- Latest saved study day: **2026-10-09**.
-- Day status: **closed** at learner request ("enough today"); exact closing time was not recorded.
-- Active day/session: **none**. Last session: `2026-10-09-S01`, completed.
-- **29** Arabic-to-German written translation exercises (E01–E29) and **14** learner replies in a text-based conversation (C01–C14).
-- The final conversation question `Was machst du gern in deiner Freizeit?` was unanswered and is optional to resume later.
-- Pending answers in the closed session: **none**.
+- Level goal: **A1**, not yet certified.
+- Active date: **2026-10-09** Europe/Berlin.
+- Day status: **reopened** after prior Closure 1, which remains preserved in the day file.
+- Current session: **2026-10-09-S02** (text-based A1 grammar lesson on **kein vs nicht**).
+- Previous session: **2026-10-09-S01** completed and closed earlier on the same date.
+- Previously recorded: **29** completed translation answers E01–E29 and **14** written conversation responses C01–C14.
+- New exercises E30–E35: **6 pending**, no answers yet.
+- Text conversation question "Was machst du gern in deiner Freizeit?" remains optional later; not completed.
 
-## Material registered after reset
+## Curriculum
 
-- Numbered verbs: **4** (`sein`, `heißen`, `wohnen`, `haben`).
-- Additional verbs used or explained in conversation, unnumbered: **7** (`gehen`, `kommen`, `sprechen`, `lernen`, `arbeiten`, `möchten`, `mögen`).
-- Vocabulary and expressions registered: **32** (includes first-day vocabulary and context words; registration is not mastery).
-- Grammar topics introduced or practiced: **12**.
-- Documented mistake patterns: **9**, of which **3** currently need extra practice; the others have same-day improvement evidence but delayed retention is untested.
+- Numbered verbs: **4** (sein, heißen, wohnen, haben); **7** supplemental verbs encountered.
+- Vocabulary/expressions introduced or registered: **38**. New W033–W038: kein, Buch, Bruder, Tasche, Auto, Tisch. Existing nicht (W012) was revisited.
+- Grammar topics introduced: **14**. G013: noun negation with kein/keine/keinen, including masculine Accusative; G014: nicht negation and position relative to adjectives, actions, definite or possessive noun phrases.
+- Both new grammar topics are **introduced only**; correctness not assessed until the learner submits E30–E35.
+- 9 previously observed mistake patterns, 3 requiring further attention; no new learner mistakes from this lesson yet.
+- User-supplied A1 image was used as the lesson source; the repository reference PDFs were not inspected in this turn.
 
-## Skills and evidence
+## Skills
 
-- Written production and text-based conversation: practiced and corrected with examples.
-- Speaking/pronunciation: **not assessed** (no learner audio).
-- Listening: **not assessed** (no audible comprehension exercise).
-- Reading comprehension: **not separately assessed**.
-- Main strengths: introduction, present-tense sentences, simple questions, self-correction when given feedback.
-- Next focus: `weil` finite-verb-final position, punctuation before `weil`/`aber`, informal `du` vs formal `Sie`, `möchte` + infinitive, `mögen` with `Programmieren`, spellings and noun capitalization, and `Mir geht es gut`.
+- Written German and written conversation previously practiced.
+- Pronunciation, audio listening, and spoken fluency: **not assessed**.
 
-## A1 references
+## Next step
 
-- `references/startbereit A1 - نسخة الكورس المسجل (1).pdf`
-- `references/الملحقات الجديدة.pdf`
+Collect answers for E30–E35 and correct each, logging original answers, errors and retry evidence without assuming proficiency. Keep the same date's study day reopened until learner says they are done.
 
-References are source material only; neither PDF is completion evidence. Exact contents were not directly inspected in this session.
+## Repository synchronization
 
-## Next study session
-
-Begin with a fresh **delayed recall** of the above errors, before additional new topics. Review queue is saved in `progress.json`. Offer to continue the unanswered text prompt about free time only if the learner wants conversation practice.
-
-## Synchronization
-
-Checked 2026-10-09: the day log, `progress.json`, relevant curriculum and `MISTAKE_PATTERNS.md` were reconciled to the actual conversation. Day closed; no force push or destructive operation was used.
+- Same day file: `days/2026-10-09.md` (reopened, session S02).
+- `progress.json`, `curriculum/grammar.md`, and `curriculum/vocabulary.md` updated for this new lesson.
+- Prior closure and all historical post-reset answers preserved.
