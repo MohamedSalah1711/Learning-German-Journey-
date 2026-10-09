@@ -17,11 +17,10 @@ Copy only when days/{{DATE}}.md does not exist. Replace {{DATE}} with the actual
 
 - Numbered verbs introduced / target (supplemental entries excluded):
 - Latest requested activity and whether it is pending or completed:
-- Historical source: live session / Backfilled from prior conversation.
-- For backfill only: exact times and original session count may be unknown; do not fabricate them. Record a historical summary separately from live session sections. sessions counts the actual live sections, not estimated historical sessions.
+- Historical source: post-reset live session only.
 
 
-- Verbs introduced and group statuses:
+- Verbs introduced and statuses:
 - Current grammar focus:
 - Vocabulary snapshot and active mistakes:
 - Continuation from previous day, including pending prompts:
