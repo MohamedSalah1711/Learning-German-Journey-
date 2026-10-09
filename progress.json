@@ -5,14 +5,57 @@
   "reset_on": "2026-10-09",
   "reset_reason": "User requested clearing all progress data and adding A1 reference materials.",
   "current_level_goal": "A1",
-  "current_day": null,
+  "current_day": "2026-10-09",
   "latest_day": "2026-10-09",
-  "day_status": "closed",
-  "current_session_id": null,
-  "sessions_recorded": 1,
-  "active_topic": "A1 first day completed; next session cumulative review",
-  "next_action": "Next study session: spaced recall of weil verb-last, modal möchte, du/Sie, punctuation and spelling. Optional text conversation: Was machst du gern in deiner Freizeit?",
-  "pending_exercises": [],
+  "day_status": "reopened",
+  "current_session_id": "2026-10-09-S02",
+  "sessions_recorded": 2,
+  "active_topic": "A1 negation: kein vs nicht and placement; masculine Akkusativ keinen",
+  "next_action": "Await E30-E35 Arabic-to-German translations; correct without assuming mastery.",
+  "pending_exercises": [
+    {
+      "id": "2026-10-09-S02-E30",
+      "prompt": "أنا معنديش شنطة.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-09-S02-E31",
+      "prompt": "أنا مش تعبان.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-09-S02-E32",
+      "prompt": "هو معندوش أخ.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-09-S02-E33",
+      "prompt": "أنا مش ساكن في برلين.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-09-S02-E34",
+      "prompt": "دي مش عربيتي.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-09-S02-E35",
+      "prompt": "أنا مش جعان.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    }
+  ],
   "references": [
     {
       "id": "REF001",
@@ -30,8 +73,8 @@
   "totals": {
     "numbered_verbs_introduced": 4,
     "numbered_verbs_target": null,
-    "vocabulary_registered_entries_count": 32,
-    "grammar_topics_introduced": 12,
+    "vocabulary_registered_entries_count": 38,
+    "grammar_topics_introduced": 14,
     "mistake_patterns_active": 3
   },
   "verbs": {
@@ -283,9 +326,10 @@
         "word": "nicht",
         "meaning_ar": "مش / لا",
         "type": "negation",
-        "status": "introduced_or_practiced_text_only",
+        "status": "reused_in_new_negation_lesson",
         "evidence": [
-          "2026-10-09-S01"
+          "2026-10-09-S01",
+          "2026-10-09-S02"
         ],
         "examples": "C04 examples"
       },
@@ -508,9 +552,80 @@
           "2026-10-09-S01"
         ],
         "examples": "C03/C04"
+      },
+      {
+        "id": "W033",
+        "word": "kein",
+        "meaning_ar": "ولا / مفيش",
+        "type": "negative_article",
+        "reference_form": "forms: kein/keine/keinen",
+        "status": "introduced_practice_pending",
+        "evidence": [
+          "2026-10-09-S02"
+        ]
+      },
+      {
+        "id": "W034",
+        "word": "Buch",
+        "meaning_ar": "كتاب",
+        "type": "noun",
+        "article": "das",
+        "reference_form": "plural Bücher",
+        "status": "introduced_practice_pending",
+        "evidence": [
+          "2026-10-09-S02"
+        ]
+      },
+      {
+        "id": "W035",
+        "word": "Bruder",
+        "meaning_ar": "أخ",
+        "type": "noun",
+        "article": "der",
+        "reference_form": "plural Brüder",
+        "status": "introduced_practice_pending",
+        "evidence": [
+          "2026-10-09-S02"
+        ]
+      },
+      {
+        "id": "W036",
+        "word": "Tasche",
+        "meaning_ar": "شنطة",
+        "type": "noun",
+        "article": "die",
+        "reference_form": "plural Taschen",
+        "status": "introduced_practice_pending",
+        "evidence": [
+          "2026-10-09-S02"
+        ]
+      },
+      {
+        "id": "W037",
+        "word": "Auto",
+        "meaning_ar": "عربية",
+        "type": "noun",
+        "article": "das",
+        "reference_form": "plural Autos",
+        "status": "introduced_practice_pending",
+        "evidence": [
+          "2026-10-09-S02"
+        ]
+      },
+      {
+        "id": "W038",
+        "word": "Tisch",
+        "meaning_ar": "ترابيزة",
+        "type": "noun",
+        "article": "der",
+        "reference_form": "plural Tische",
+        "status": "introduced_practice_pending",
+        "evidence": [
+          "2026-10-09-S02"
+        ]
       }
     ],
-    "registered_entries_count": 32,
+    "registered_entries_count": 38,
     "total_known": null
   },
   "grammar": {
@@ -630,6 +745,24 @@
           "2026-10-09-S01"
         ],
         "exercise_refs": "C06/C11"
+      },
+      {
+        "id": "G013",
+        "title": "Negation: kein for bare/indefinite nouns; case/gender agreement",
+        "date": "2026-10-09",
+        "status": "introduced_practice_pending",
+        "evidence": [
+          "2026-10-09-S02"
+        ]
+      },
+      {
+        "id": "G014",
+        "title": "Negation: nicht for adjectives, verbs, noun phrases with definite/possessive determiners; placement",
+        "date": "2026-10-09",
+        "status": "introduced_practice_pending",
+        "evidence": [
+          "2026-10-09-S02"
+        ]
       }
     ]
   },
@@ -1260,6 +1393,31 @@
           "listening_assessed": false
         }
       ]
+    },
+    {
+      "id": "2026-10-09-S02",
+      "day": "2026-10-09",
+      "mode": "targeted_review",
+      "status": "active",
+      "started_at": null,
+      "topics": [
+        "kein to negate nouns",
+        "kein forms: kein, keine, keinen",
+        "nicht for verbs, adjectives, definite and possessive phrases",
+        "nicht placement"
+      ],
+      "pending_exercise_ids": [
+        "2026-10-09-S02-E30",
+        "2026-10-09-S02-E31",
+        "2026-10-09-S02-E32",
+        "2026-10-09-S02-E33",
+        "2026-10-09-S02-E34",
+        "2026-10-09-S02-E35"
+      ],
+      "modality": "text",
+      "exercise_results": [],
+      "completed_exercise_ids": [],
+      "reference": "user-shared image of kein/nicht A1 handout"
     }
   ],
   "events": [
@@ -1302,6 +1460,11 @@
       "date": "2026-10-09",
       "type": "session_closed_after_synced_conversation",
       "note": "Saved E21–E29 and C01–C14 from the actual conversation; learner said enough today; closure without claiming delayed mastery/audio."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "reopen",
+      "note": "After explicit closure, learner requested explanation and exercises for kein/nicht from image. Reopened same day file and started session S02; E30–E35 pending."
     }
   ]
 }
