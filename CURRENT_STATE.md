@@ -25,3 +25,8 @@ PDF contents not directly inspected in this lesson. Used original standard A1 in
 ## Next Step
 
 Collect and correct E08–E11. Keep the day open until learner ends it.
+
+## Synchronization note
+
+- Updated successfully: study day, progress.json, curriculum/verbs.md and curriculum/grammar.md.
+- Pending: curriculum/vocabulary.md (W005 and W006 not written there) and MISTAKE_PATTERNS.md (M001/M002 not written there), after GitHub write safety checks blocked edits. Source details remain in progress.json and the day log.
