@@ -5,36 +5,14 @@
   "reset_on": "2026-10-09",
   "reset_reason": "User requested clearing all progress data and adding A1 reference materials.",
   "current_level_goal": "A1",
-  "current_day": "2026-10-09",
+  "current_day": null,
   "latest_day": "2026-10-09",
-  "day_status": "open",
-  "current_session_id": "2026-10-09-S01",
+  "day_status": "closed",
+  "current_session_id": null,
   "sessions_recorded": 1,
-  "active_topic": "A1 cumulative retry: ich wohne and punctuation with und",
-  "next_action": "Receive E21–E23, check verb conjugation and commas with und.",
-  "pending_exercises": [
-    {
-      "id": "2026-10-09-S01-E21",
-      "prompt": "أنا ساكن في برلين، وأنا عطشان.",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    },
-    {
-      "id": "2026-10-09-S01-E22",
-      "prompt": "هي اسمها مريم وهي ساكنة في ميونخ.",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    },
-    {
-      "id": "2026-10-09-S01-E23",
-      "prompt": "إنت ساكن فين؟",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    }
-  ],
+  "active_topic": "A1 first day completed; next session cumulative review",
+  "next_action": "Next study session: spaced recall of weil verb-last, modal möchte, du/Sie, punctuation and spelling. Optional text conversation: Was machst du gern in deiner Freizeit?",
+  "pending_exercises": [],
   "references": [
     {
       "id": "REF001",
@@ -52,9 +30,9 @@
   "totals": {
     "numbered_verbs_introduced": 4,
     "numbered_verbs_target": null,
-    "vocabulary_registered_entries_count": 8,
-    "grammar_topics_introduced": 4,
-    "mistake_patterns_active": 2
+    "vocabulary_registered_entries_count": 32,
+    "grammar_topics_introduced": 12,
+    "mistake_patterns_active": 3
   },
   "verbs": {
     "items": [
@@ -103,7 +81,81 @@
         ]
       }
     ],
-    "introduced_total": 4
+    "introduced_total": 4,
+    "supplemental_items": [
+      {
+        "id": "SV001",
+        "verb": "gehen",
+        "meaning_ar": "يروح؛ geht في Mir geht es gut",
+        "praesens_ref": "Mir geht es gut",
+        "status": "introduced_or_practiced_in_context_not_mastered",
+        "evidence": [
+          "2026-10-09-S01-C03–C04"
+        ]
+      },
+      {
+        "id": "SV002",
+        "verb": "kommen",
+        "meaning_ar": "يأتي / منين",
+        "praesens_ref": "ich komme aus Ägypten",
+        "status": "introduced_or_practiced_in_context_not_mastered",
+        "evidence": [
+          "2026-10-09-S01-C06"
+        ]
+      },
+      {
+        "id": "SV003",
+        "verb": "sprechen",
+        "meaning_ar": "يتكلم",
+        "praesens_ref": "ich spreche",
+        "status": "introduced_or_practiced_in_context_not_mastered",
+        "evidence": [
+          "2026-10-09-S01-C07"
+        ]
+      },
+      {
+        "id": "SV004",
+        "verb": "lernen",
+        "meaning_ar": "يتعلم",
+        "praesens_ref": "ich lerne",
+        "status": "introduced_or_practiced_in_context_not_mastered",
+        "evidence": [
+          "2026-10-09-S01-C08–C10"
+        ]
+      },
+      {
+        "id": "SV005",
+        "verb": "arbeiten",
+        "meaning_ar": "يشتغل",
+        "praesens_ref": "arbeiten with möchte",
+        "status": "introduced_or_practiced_in_context_not_mastered",
+        "evidence": [
+          "2026-10-09-S01-C09–C11",
+          "2026-10-09-S01-C14"
+        ]
+      },
+      {
+        "id": "SV006",
+        "verb": "möchten",
+        "meaning_ar": "يود / عايز",
+        "praesens_ref": "ich möchte",
+        "status": "introduced_or_practiced_in_context_not_mastered",
+        "evidence": [
+          "2026-10-09-S01-C09–C11",
+          "2026-10-09-S01-C14"
+        ]
+      },
+      {
+        "id": "SV007",
+        "verb": "mögen",
+        "meaning_ar": "يحب",
+        "praesens_ref": "ich mag",
+        "status": "introduced_or_practiced_in_context_not_mastered",
+        "evidence": [
+          "2026-10-09-S01-C12–C14"
+        ]
+      }
+    ]
   },
   "vocabulary": {
     "items": [
@@ -188,9 +240,273 @@
         "evidence": [
           "2026-10-09-S01"
         ]
+      },
+      {
+        "id": "W009",
+        "word": "und",
+        "meaning_ar": "و",
+        "type": "conjunction",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "E17/E21/E22"
+      },
+      {
+        "id": "W010",
+        "word": "aber",
+        "meaning_ar": "لكن",
+        "type": "conjunction",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "E25"
+      },
+      {
+        "id": "W011",
+        "word": "weil",
+        "meaning_ar": "لأن",
+        "type": "conjunction",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C09/C10/C12/C14"
+      },
+      {
+        "id": "W012",
+        "word": "nicht",
+        "meaning_ar": "مش / لا",
+        "type": "negation",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C04 examples"
+      },
+      {
+        "id": "W013",
+        "word": "wie",
+        "meaning_ar": "إزاي / إيه في سؤال الاسم",
+        "type": "question_word",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "E26–E29"
+      },
+      {
+        "id": "W014",
+        "word": "woher",
+        "meaning_ar": "منين",
+        "type": "question_word",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C06"
+      },
+      {
+        "id": "W015",
+        "word": "warum",
+        "meaning_ar": "ليه",
+        "type": "question_word",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C09"
+      },
+      {
+        "id": "W016",
+        "word": "gut",
+        "meaning_ar": "كويس",
+        "type": "adjective",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C04"
+      },
+      {
+        "id": "W017",
+        "word": "schlecht",
+        "meaning_ar": "مش كويس",
+        "type": "adjective",
+        "status": "introduced_not_tested",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "well-being examples"
+      },
+      {
+        "id": "W018",
+        "word": "Jahre",
+        "meaning_ar": "سنين",
+        "type": "noun",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C05"
+      },
+      {
+        "id": "W019",
+        "word": "alt",
+        "meaning_ar": "عنده من العمر",
+        "type": "adjective",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C05"
+      },
+      {
+        "id": "W020",
+        "word": "Ägypten",
+        "meaning_ar": "مصر",
+        "type": "country",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C06"
+      },
+      {
+        "id": "W021",
+        "word": "Deutschland",
+        "meaning_ar": "ألمانيا",
+        "type": "country",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C09/C10"
+      },
+      {
+        "id": "W022",
+        "word": "Deutsch",
+        "meaning_ar": "ألماني",
+        "type": "language",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C07–C10"
+      },
+      {
+        "id": "W023",
+        "word": "Arabisch",
+        "meaning_ar": "عربي",
+        "type": "language",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C07"
+      },
+      {
+        "id": "W024",
+        "word": "Englisch",
+        "meaning_ar": "إنجليزي",
+        "type": "language",
+        "status": "introduced_not_tested",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "assistant conversation example"
+      },
+      {
+        "id": "W025",
+        "word": "Ingenieur",
+        "meaning_ar": "مهندس",
+        "type": "occupation",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C11/C14"
+      },
+      {
+        "id": "W026",
+        "word": "Programmieren",
+        "meaning_ar": "البرمجة",
+        "type": "nominalized_verb",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C12–C14"
+      },
+      {
+        "id": "W027",
+        "word": "gern",
+        "meaning_ar": "بحب أعمل",
+        "type": "adverb",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C08"
+      },
+      {
+        "id": "W028",
+        "word": "Freizeit",
+        "meaning_ar": "وقت الفراغ",
+        "type": "noun",
+        "status": "introduced_not_tested",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "last unanswered question"
+      },
+      {
+        "id": "W029",
+        "word": "Technik",
+        "meaning_ar": "تكنولوجيا",
+        "type": "noun",
+        "status": "introduced_not_tested",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "example given in conversation"
+      },
+      {
+        "id": "W030",
+        "word": "als",
+        "meaning_ar": "كـ (مهنة)",
+        "type": "preposition",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C11/C14"
+      },
+      {
+        "id": "W031",
+        "word": "aus",
+        "meaning_ar": "من (بلد)",
+        "type": "preposition",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C06"
+      },
+      {
+        "id": "W032",
+        "word": "Mir geht es gut",
+        "meaning_ar": "أنا كويس",
+        "type": "phrase",
+        "status": "introduced_or_practiced_text_only",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "examples": "C03/C04"
       }
     ],
-    "registered_entries_count": 8,
+    "registered_entries_count": 32,
     "total_known": null
   },
   "grammar": {
@@ -230,6 +546,86 @@
         "evidence": [
           "2026-10-09-S01"
         ]
+      },
+      {
+        "id": "G005",
+        "title": "Coordination with und/aber: no comma before simple und; comma before aber",
+        "date": "2026-10-09",
+        "status": "introduced_or_practiced_not_mastered",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "exercise_refs": "E16–E25"
+      },
+      {
+        "id": "G006",
+        "title": "Subordinate weil: comma and finite verb-final position",
+        "date": "2026-10-09",
+        "status": "introduced_or_practiced_not_mastered",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "exercise_refs": "C09/C10/C12/C14"
+      },
+      {
+        "id": "G007",
+        "title": "möchte + infinitive in main clause; modal + finite-last after weil",
+        "date": "2026-10-09",
+        "status": "introduced_or_practiced_not_mastered",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "exercise_refs": "C09–C11/C14"
+      },
+      {
+        "id": "G008",
+        "title": "Personal questions: informal du vs formal Sie vs feminine sie",
+        "date": "2026-10-09",
+        "status": "introduced_or_practiced_not_mastered",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "exercise_refs": "E26–E29"
+      },
+      {
+        "id": "G009",
+        "title": "Nominalized infinitive: das Programmieren; use with mag",
+        "date": "2026-10-09",
+        "status": "introduced_or_practiced_not_mastered",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "exercise_refs": "C12–C14"
+      },
+      {
+        "id": "G010",
+        "title": "Idiomatic well-being: Mir geht es gut; Und dir? versus Und du?",
+        "date": "2026-10-09",
+        "status": "introduced_or_practiced_not_mastered",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "exercise_refs": "C03–C05"
+      },
+      {
+        "id": "G011",
+        "title": "Capitalization and basic sentence/question punctuation",
+        "date": "2026-10-09",
+        "status": "introduced_or_practiced_not_mastered",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "exercise_refs": "E01–E29/C05/C08/C10"
+      },
+      {
+        "id": "G012",
+        "title": "Country origins with aus; occupation with als",
+        "date": "2026-10-09",
+        "status": "introduced_or_practiced_not_mastered",
+        "evidence": [
+          "2026-10-09-S01"
+        ],
+        "exercise_refs": "C06/C11"
       }
     ]
   },
@@ -273,8 +669,14 @@
       "evidence": [
         "2026-10-09-S01-E16"
       ],
-      "status": "active",
-      "first_observed_on": "2026-10-09"
+      "status": "immediate_retest_correct_monitoring",
+      "first_observed_on": "2026-10-09",
+      "retest_evidence": [
+        "2026-10-09-S01-E21",
+        "2026-10-09-S01-E22",
+        "2026-10-09-S01-E23"
+      ],
+      "delayed_retention": "not_assessed"
     },
     {
       "id": "M004",
@@ -287,7 +689,84 @@
         "2026-10-09-S01-E20"
       ],
       "status": "active",
-      "first_observed_on": "2026-10-09"
+      "first_observed_on": "2026-10-09",
+      "retest_evidence": [
+        "2026-10-09-S01-E21",
+        "2026-10-09-S01-E22",
+        "2026-10-09-S01-E23"
+      ],
+      "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M005",
+      "type": "pronoun_and_conjugation",
+      "description": "E26 Wie heißen sie? for familiar addressee; should be Wie heißt du?",
+      "evidence": [
+        "2026-10-09-S01-E26"
+      ],
+      "status": "immediate_retest_correct_monitoring",
+      "first_observed_on": "2026-10-09",
+      "retest_evidence": [
+        "2026-10-09-S01-E27",
+        "2026-10-09-S01-E28",
+        "2026-10-09-S01-E29"
+      ],
+      "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M006",
+      "type": "idiom",
+      "description": "C03 Ich gehe gut instead of Mir geht es gut",
+      "evidence": [
+        "2026-10-09-S01-C03"
+      ],
+      "status": "immediate_retest_correct_monitoring",
+      "first_observed_on": "2026-10-09",
+      "retest_evidence": [
+        "2026-10-09-S01-C04"
+      ],
+      "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M007",
+      "type": "weil_word_order",
+      "description": "C09 finite möchte before working infinitive after weil; corrected in C10/C14",
+      "evidence": [
+        "2026-10-09-S01-C09"
+      ],
+      "status": "immediate_retest_correct_monitoring",
+      "first_observed_on": "2026-10-09",
+      "retest_evidence": [
+        "2026-10-09-S01-C10",
+        "2026-10-09-S01-C14"
+      ],
+      "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M008",
+      "type": "spelling_and_nominalization",
+      "description": "C06 Agypten; C08 deutch; C14 wiel and lowercase programmieren, all corrected after response",
+      "evidence": [
+        "2026-10-09-S01-C06",
+        "2026-10-09-S01-C08",
+        "2026-10-09-S01-C14"
+      ],
+      "status": "active",
+      "first_observed_on": "2026-10-09",
+      "retest_evidence": [],
+      "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M009",
+      "type": "contextual_pronouns",
+      "description": "C05 And dir? used after Wie alt bist du?; should be Und du?",
+      "evidence": [
+        "2026-10-09-S01-C05"
+      ],
+      "status": "active",
+      "first_observed_on": "2026-10-09",
+      "retest_evidence": [],
+      "delayed_retention": "not_assessed"
     }
   ],
   "skill_tracking": {
@@ -296,8 +775,24 @@
       "evidence": []
     },
     "conversation": {
-      "status": "not_assessed",
-      "evidence": []
+      "status": "practiced_text_only",
+      "evidence": [
+        "2026-10-09-S01-C01",
+        "2026-10-09-S01-C02",
+        "2026-10-09-S01-C03",
+        "2026-10-09-S01-C04",
+        "2026-10-09-S01-C05",
+        "2026-10-09-S01-C06",
+        "2026-10-09-S01-C07",
+        "2026-10-09-S01-C08",
+        "2026-10-09-S01-C09",
+        "2026-10-09-S01-C10",
+        "2026-10-09-S01-C11",
+        "2026-10-09-S01-C12",
+        "2026-10-09-S01-C13",
+        "2026-10-09-S01-C14"
+      ],
+      "summary": "14 written German replies with iterative corrections. No spoken-audio or listening evidence."
     },
     "reading": {
       "status": "not_assessed",
@@ -308,13 +803,50 @@
       "evidence": []
     }
   },
-  "review_queue": [],
+  "review_queue": [
+    {
+      "id": "RQ-C01",
+      "mode": "conversation",
+      "target_key": "weil_clause_order",
+      "due_on": "2026-10-10",
+      "interval_index": 0,
+      "status": "pending",
+      "reason": "C09 incorrect; C10/C14 corrected with lingering punctuation"
+    },
+    {
+      "id": "RQ-C02",
+      "mode": "conversation",
+      "target_key": "du_sie_name_questions",
+      "due_on": "2026-10-10",
+      "interval_index": 0,
+      "status": "pending",
+      "reason": "E26 incorrect; E27-E29 immediate transfer correct; delayed recall needed"
+    },
+    {
+      "id": "RQ-C03",
+      "mode": "conversation",
+      "target_key": "wellbeing_expression",
+      "due_on": "2026-10-10",
+      "interval_index": 0,
+      "status": "pending",
+      "reason": "C03 incorrect; C04 immediate retry correct"
+    },
+    {
+      "id": "RQ-C04",
+      "mode": "conversation",
+      "target_key": "writing_punctuation_spelling",
+      "due_on": "2026-10-10",
+      "interval_index": 0,
+      "status": "pending",
+      "reason": "Question marks, und/aber/weil commas, Deutsch/Ägypten/weil/Programmieren"
+    }
+  ],
   "sessions": [
     {
       "id": "2026-10-09-S01",
       "day": "2026-10-09",
       "mode": "start_new_study_day",
-      "status": "active",
+      "status": "completed",
       "started_at": null,
       "topics": [
         "A1 greetings",
@@ -325,13 +857,14 @@
         "Wo wohnst du?",
         "haben present",
         "Hunger, Durst",
-        "yes/no questions"
+        "yes/no questions",
+        "und/aber coordinated clauses",
+        "weil verb-final clauses",
+        "möchte + infinitive",
+        "du vs formal Sie questions",
+        "short text conversation: greetings, feelings, work"
       ],
-      "pending_exercise_ids": [
-        "2026-10-09-S01-E21",
-        "2026-10-09-S01-E22",
-        "2026-10-09-S01-E23"
-      ],
+      "pending_exercise_ids": [],
       "modality": "text",
       "exercise_results": [
         {
@@ -496,6 +1029,87 @@
           "result": "grammar_correct_punctuation_issue",
           "note": "Comma before und unnecessary.",
           "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E21",
+          "answer": "Ich wohne in Berlin und habe Durst.",
+          "correct": "Ich wohne in Berlin und habe Durst.",
+          "result": "independent_correct",
+          "note": "Correct immediate transfer from prior feedback",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": true
+        },
+        {
+          "id": "2026-10-09-S01-E22",
+          "answer": "Sie heißt Mariam und wohnt in München.",
+          "correct": "Sie heißt Mariam und wohnt in München.",
+          "result": "independent_correct",
+          "note": "Correct immediate transfer from prior feedback",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": true
+        },
+        {
+          "id": "2026-10-09-S01-E23",
+          "answer": "Wo wohnst du?",
+          "correct": "Wo wohnst du?",
+          "result": "independent_correct",
+          "note": "Correct immediate transfer from prior feedback",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": true
+        },
+        {
+          "id": "2026-10-09-S01-E24",
+          "answer": "Ich heiße Karim, ich bin müde und habe Durst.",
+          "correct": "Ich heiße Karim. Ich bin müde und habe Durst.",
+          "result": "grammar_correct_punctuation_issue",
+          "note": "Comma alone joined two independent clauses",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-09-S01-E25",
+          "answer": "Sie wohnt in Berlin, aber ich wohne in Hamburg.",
+          "correct": "Sie wohnt in Berlin, aber ich wohne in Hamburg.",
+          "result": "independent_correct",
+          "note": "Correct comma before aber",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-09-S01-E26",
+          "answer": "Wie heißen sie?",
+          "correct": "Wie heißt du?",
+          "result": "needs_retry",
+          "note": "Wrong second-person pronoun/conjugation; formal alternative Wie heißen Sie?",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-09-S01-E27",
+          "answer": "Wie heißt du?",
+          "correct": "Wie heißt du?",
+          "result": "independent_correct",
+          "note": "Correct after feedback on informal address",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": true
+        },
+        {
+          "id": "2026-10-09-S01-E28",
+          "answer": "Wie heißen Sie?",
+          "correct": "Wie heißen Sie?",
+          "result": "independent_correct",
+          "note": "Correct after feedback on formal address",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": true
+        },
+        {
+          "id": "2026-10-09-S01-E29",
+          "answer": "Wie heißt sie?",
+          "correct": "Wie heißt sie?",
+          "result": "independent_correct",
+          "note": "Correct after feedback on third-person singular",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": true
         }
       ],
       "completed_exercise_ids": [
@@ -518,7 +1132,129 @@
         "2026-10-09-S01-E17",
         "2026-10-09-S01-E18",
         "2026-10-09-S01-E19",
-        "2026-10-09-S01-E20"
+        "2026-10-09-S01-E20",
+        "2026-10-09-S01-E21",
+        "2026-10-09-S01-E22",
+        "2026-10-09-S01-E23",
+        "2026-10-09-S01-E24",
+        "2026-10-09-S01-E25",
+        "2026-10-09-S01-E26",
+        "2026-10-09-S01-E27",
+        "2026-10-09-S01-E28",
+        "2026-10-09-S01-E29"
+      ],
+      "ended_at": null,
+      "closed_on": "2026-10-09",
+      "skill_activities": [
+        {
+          "id": "ACT-C01",
+          "mode": "conversation",
+          "status": "completed",
+          "modality": "text",
+          "responses": [
+            {
+              "id": "2026-10-09-S01-C01",
+              "learner_response": "Hallo! Ich heiße Mohamed.",
+              "corrected_response": "Hallo! Ich heiße Mohamed.",
+              "result": "independent_correct",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C02",
+              "learner_response": "Ich wohne in Ingolstadt.",
+              "corrected_response": "Ich wohne in Ingolstadt.",
+              "result": "independent_correct",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C03",
+              "learner_response": "Ich gehe gut.",
+              "corrected_response": "Mir geht es gut.",
+              "result": "needs_retry",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C04",
+              "learner_response": "Mir geht es gut!",
+              "corrected_response": "Mir geht es gut!",
+              "result": "correct_after_feedback",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C05",
+              "learner_response": "ich bin 26 jahre alt. Und dir ?",
+              "corrected_response": "Ich bin 26 Jahre alt. Und du?",
+              "result": "needs_correction",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C06",
+              "learner_response": "Ich komme aus Agypten. Und du ?",
+              "corrected_response": "Ich komme aus Ägypten. Und du?",
+              "result": "needs_correction",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C07",
+              "learner_response": "Ich spreche Deutsch und Arabisch. Und du?",
+              "corrected_response": "Ich spreche Deutsch und Arabisch. Und du?",
+              "result": "independent_correct",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C08",
+              "learner_response": "Ja, ich lerne gern deutch.",
+              "corrected_response": "Ja, ich lerne gern Deutsch.",
+              "result": "needs_correction",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C09",
+              "learner_response": "Weil ich möchte in Deutschland arbeiten.",
+              "corrected_response": "Weil ich in Deutschland arbeiten möchte.",
+              "result": "needs_retry",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C10",
+              "learner_response": "Ich lerne Deutsch weil Ich in Deutschland arbeiten möchte.",
+              "corrected_response": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+              "result": "grammar_correct_punctuation_capitalization",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C11",
+              "learner_response": "Ich möchte als Ingenieur arbeiten.",
+              "corrected_response": "Ich möchte als Ingenieur arbeiten.",
+              "result": "independent_correct",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C12",
+              "learner_response": "Weil ich mag programming.",
+              "corrected_response": "Weil ich Programmieren mag.",
+              "result": "needs_retry",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C13",
+              "learner_response": "Ich mag Programmieren.",
+              "corrected_response": "Ich mag Programmieren.",
+              "result": "independent_correct",
+              "received_audio": false
+            },
+            {
+              "id": "2026-10-09-S01-C14",
+              "learner_response": "Ich möchte als Ingenieur arbeiten, wiel ich programmieren mag.",
+              "corrected_response": "Ich möchte als Ingenieur arbeiten, weil ich Programmieren mag.",
+              "result": "grammar_correct_spelling_capitalization",
+              "received_audio": false
+            }
+          ],
+          "unanswered_prompt": "Was machst du gern in deiner Freizeit?",
+          "pronunciation_assessed": false,
+          "listening_assessed": false
+        }
       ]
     }
   ],
@@ -557,6 +1293,11 @@
       "date": "2026-10-09",
       "type": "answers_saved",
       "note": "E12-E20 assessed; E16 wohnen error, E14/E16/E17/E20 punctuation issues. E21-E23 pending."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "session_closed_after_synced_conversation",
+      "note": "Saved E21–E29 and C01–C14 from the actual conversation; learner said enough today; closure without claiming delayed mastery/audio."
     }
   ]
 }
