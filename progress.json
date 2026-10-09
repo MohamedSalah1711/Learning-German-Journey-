@@ -10,33 +10,26 @@
   "day_status": "open",
   "current_session_id": "2026-10-09-S01",
   "sessions_recorded": 1,
-  "active_topic": "A1: haben and Hunger / Durst",
-  "next_action": "Correct E12–E15; keep session open.",
+  "active_topic": "A1 cumulative retry: ich wohne and punctuation with und",
+  "next_action": "Receive E21–E23, check verb conjugation and commas with und.",
   "pending_exercises": [
     {
-      "id": "2026-10-09-S01-E12",
-      "prompt": "أنا جعان.",
+      "id": "2026-10-09-S01-E21",
+      "prompt": "أنا ساكن في برلين، وأنا عطشان.",
       "status": "pending",
       "answer": null,
       "hint_used": null
     },
     {
-      "id": "2026-10-09-S01-E13",
-      "prompt": "هي عطشانة.",
+      "id": "2026-10-09-S01-E22",
+      "prompt": "هي اسمها مريم وهي ساكنة في ميونخ.",
       "status": "pending",
       "answer": null,
       "hint_used": null
     },
     {
-      "id": "2026-10-09-S01-E14",
-      "prompt": "إنت جعان؟",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    },
-    {
-      "id": "2026-10-09-S01-E15",
-      "prompt": "أنا عطشان.",
+      "id": "2026-10-09-S01-E23",
+      "prompt": "إنت ساكن فين؟",
       "status": "pending",
       "answer": null,
       "hint_used": null
@@ -61,7 +54,7 @@
     "numbered_verbs_target": null,
     "vocabulary_registered_entries_count": 8,
     "grammar_topics_introduced": 4,
-    "mistake_patterns_active": 0
+    "mistake_patterns_active": 2
   },
   "verbs": {
     "items": [
@@ -103,7 +96,7 @@
         "verb": "haben",
         "meaning_ar": "يمتلك / عنده",
         "praesens": "ich habe; du hast; sie hat",
-        "status": "introduced_pending_practice",
+        "status": "initial_independent_correct",
         "introduced_on": "2026-10-09",
         "evidence": [
           "2026-10-09-S01"
@@ -232,7 +225,7 @@
       {
         "id": "G004",
         "title": "haben present and yes/no questions",
-        "status": "introduced_pending_practice",
+        "status": "initial_independent_correct_question_punctuation_to_review",
         "date": "2026-10-09",
         "evidence": [
           "2026-10-09-S01"
@@ -272,6 +265,29 @@
         "2026-10-09-S01-E06"
       ],
       "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M003",
+      "type": "spelling_and_conjugation",
+      "description": "Mixed prompt E16: wrote whonst instead of ich wohne.",
+      "evidence": [
+        "2026-10-09-S01-E16"
+      ],
+      "status": "active",
+      "first_observed_on": "2026-10-09"
+    },
+    {
+      "id": "M004",
+      "type": "punctuation",
+      "description": "Unnecessary comma before und in coordinated clauses E16/E17/E20; E14 used period rather than question mark.",
+      "evidence": [
+        "2026-10-09-S01-E14",
+        "2026-10-09-S01-E16",
+        "2026-10-09-S01-E17",
+        "2026-10-09-S01-E20"
+      ],
+      "status": "active",
+      "first_observed_on": "2026-10-09"
     }
   ],
   "skill_tracking": {
@@ -312,10 +328,9 @@
         "yes/no questions"
       ],
       "pending_exercise_ids": [
-        "2026-10-09-S01-E12",
-        "2026-10-09-S01-E13",
-        "2026-10-09-S01-E14",
-        "2026-10-09-S01-E15"
+        "2026-10-09-S01-E21",
+        "2026-10-09-S01-E22",
+        "2026-10-09-S01-E23"
       ],
       "modality": "text",
       "exercise_results": [
@@ -409,6 +424,78 @@
           "result": "independent_correct",
           "note": "Correct word order; unnecessary space before question mark.",
           "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E12",
+          "answer": "Ich habe Hunger.",
+          "correct": "Ich habe Hunger.",
+          "result": "independent_correct",
+          "note": "Correct haben.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E13",
+          "answer": "Sie hat Durst.",
+          "correct": "Sie hat Durst.",
+          "result": "independent_correct",
+          "note": "Correct haben.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E14",
+          "answer": "Hast du Hunger.",
+          "correct": "Hast du Hunger?",
+          "result": "grammar_correct_punctuation_issue",
+          "note": "Period instead of question mark.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E15",
+          "answer": "Ich habe Durst.",
+          "correct": "Ich habe Durst.",
+          "result": "independent_correct",
+          "note": "Correct haben.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E16",
+          "answer": "Ich heiße Omar, und whonst in Berlin.",
+          "correct": "Ich heiße Omar und wohne in Berlin.",
+          "result": "needs_retry",
+          "note": "wohnen spelling and conjugation ich wohne; comma before und unnecessary.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E17",
+          "answer": "Sie ist müde, und hat Durst.",
+          "correct": "Sie ist müde und hat Durst.",
+          "result": "grammar_correct_punctuation_issue",
+          "note": "Comma before und unnecessary.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E18",
+          "answer": "Wo wohnst du?",
+          "correct": "Wo wohnst du?",
+          "result": "independent_correct",
+          "note": "Correct question.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E19",
+          "answer": "Hast du Hunger?",
+          "correct": "Hast du Hunger?",
+          "result": "independent_correct",
+          "note": "Correct question.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E20",
+          "answer": "Sie heißt Sara, und wohnt in Hamburg.",
+          "correct": "Sie heißt Sara und wohnt in Hamburg.",
+          "result": "grammar_correct_punctuation_issue",
+          "note": "Comma before und unnecessary.",
+          "hint_used": false
         }
       ],
       "completed_exercise_ids": [
@@ -422,7 +509,16 @@
         "2026-10-09-S01-E08",
         "2026-10-09-S01-E09",
         "2026-10-09-S01-E10",
-        "2026-10-09-S01-E11"
+        "2026-10-09-S01-E11",
+        "2026-10-09-S01-E12",
+        "2026-10-09-S01-E13",
+        "2026-10-09-S01-E14",
+        "2026-10-09-S01-E15",
+        "2026-10-09-S01-E16",
+        "2026-10-09-S01-E17",
+        "2026-10-09-S01-E18",
+        "2026-10-09-S01-E19",
+        "2026-10-09-S01-E20"
       ]
     }
   ],
@@ -456,6 +552,11 @@
       "date": "2026-10-09",
       "type": "exercise_checkpoint",
       "note": "E08-E11 4 correct, E11 extra space before punctuation; new haben lesson E12-E15 pending."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "answers_saved",
+      "note": "E12-E20 assessed; E16 wohnen error, E14/E16/E17/E20 punctuation issues. E21-E23 pending."
     }
   ]
 }
