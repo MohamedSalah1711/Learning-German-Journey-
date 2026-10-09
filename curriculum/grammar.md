@@ -19,3 +19,6 @@ Only post-reset material from actual study interactions is recorded. Introduced 
 | G010 Idiomatic well-being Mir geht es gut; appropriate follow-up pronouns | immediate retry correct; later review pending | 2026-10-09 | C03–C05 | next study day |
 | G011 Sentence and noun capitalization and basic punctuation | practiced; errors observed | 2026-10-09 | E01–E29, C05, C08, C10 | next study day |
 | G012 Prepositions aus for origin and als for profession | introduced and practiced | 2026-10-09 | C06, C11 | next study day |
+
+| G013 kein for nouns, endings by gender and case (kein/keine/keinen) | introduced; E30/E32/E35 practice pending | 2026-10-09 | 2026-10-09-S02, E30/E32/E35 | after answers |
+| G014 nicht for adjectives, verbs and definite/possessive noun phrases; placement | introduced; E31/E33/E34 practice pending | 2026-10-09 | 2026-10-09-S02, E31/E33/E34 | after answers |
