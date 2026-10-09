@@ -5,23 +5,23 @@ Last reset: **2026-10-09**.
 ## Summary
 
 - Level goal: A1.
-- Active day: **2026-10-09**, status open.
+- Active day: **2026-10-09** (open).
 - Active session: **2026-10-09-S01**.
-- E01–E04 answered and corrected; E04 independently correct, E01/E03 sentence-initial capitalization issues, E02 adjective-form issue.
-- Pending new exercises: **3**, E05–E07.
-- Recorded verbs: **2 introduced and practiced**, not yet mastered (sein, heißen).
-- Recorded vocabulary entries: **4 introduced** (Hallo, Guten Morgen, Tschüss, müde).
-- Recorded grammar topics: **2 introduced** (ich/du/sie + sein; heißen present).
-- Observed written mistake patterns: **2** (sentence-initial capitalization and adjective `müde` after `sein`).
-- Speaking, reading, listening and conversation: not assessed.
+- Answered E01–E07; fresh retest E05–E07 **3/3 correct** after prior feedback.
+- Pending exercises: **4** (E08–E11), all using new wohnen and Wo questions.
+- Verbs introduced: **3** (sein, heißen, wohnen); first two correctly used in immediate retest.
+- Vocabulary introduced: **6** (Hallo, Guten Morgen, Tschüss, müde, in, wo).
+- Grammar topics introduced: **3** (sein/subject pronouns, heißen, regular wohnen and Wo questions).
+- Mistake patterns M001 capitalization and M002 incorrect adjective ending: **both corrected in immediate fresh exercise**; check retention on future day.
+- Speaking, reading, listening and conversation assessments: not assessed.
 
 ## References
 
 - `references/startbereit A1 - نسخة الكورس المسجل (1).pdf`
 - `references/الملحقات الجديدة.pdf`
 
-Reference PDFs were not inspected during this lesson; standard A1 examples were used.
+PDF contents not directly inspected in this lesson. Used original standard A1 instruction, not completion inferred from reference documents.
 
 ## Next Step
 
-Ask learner to answer E05 (أنا تعبان), E06 (هي تعبانة), E07 (إنت اسمك يوسف); correct each and record results in today's existing day file. Keep day open until learner ends it.
+Collect and correct E08–E11. Keep the day open until learner ends it.
