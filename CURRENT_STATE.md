@@ -2,31 +2,44 @@
 
 Last reset: **2026-10-09**.
 
-## Summary
+## Study summary
 
-- Level goal: A1.
-- Active day: **2026-10-09** (open).
-- Active session: **2026-10-09-S01**.
-- Answered E01–E11; E05–E07 **3/3 correct** after feedback, E08–E11 **4/4 grammatically correct** independently (minor punctuation spacing E11).
-- Pending exercises: **4** (E12–E15), using newly introduced haben and Hunger/Durst.
-- Verbs introduced: **4** (sein, heißen, wohnen, haben); wohnen used correctly E08–E11, haben untested.
-- Vocabulary introduced: **8** (Hallo, Guten Morgen, Tschüss, müde, in, wo, Hunger, Durst).
-- Grammar topics introduced: **4** (sein, heißen, wohnen/Wo, haben/yes-no questions).
-- Mistake patterns M001 capitalization and M002 incorrect adjective ending: **both corrected in immediate fresh exercise**; check retention on future day.
-- Speaking, reading, listening and conversation assessments: not assessed.
+- Current level goal: **A1**; this is not certification of complete A1.
+- Latest saved study day: **2026-10-09**.
+- Day status: **closed** at learner request ("enough today"); exact closing time was not recorded.
+- Active day/session: **none**. Last session: `2026-10-09-S01`, completed.
+- **29** Arabic-to-German written translation exercises (E01–E29) and **14** learner replies in a text-based conversation (C01–C14).
+- The final conversation question `Was machst du gern in deiner Freizeit?` was unanswered and is optional to resume later.
+- Pending answers in the closed session: **none**.
 
-## References
+## Material registered after reset
+
+- Numbered verbs: **4** (`sein`, `heißen`, `wohnen`, `haben`).
+- Additional verbs used or explained in conversation, unnumbered: **7** (`gehen`, `kommen`, `sprechen`, `lernen`, `arbeiten`, `möchten`, `mögen`).
+- Vocabulary and expressions registered: **32** (includes first-day vocabulary and context words; registration is not mastery).
+- Grammar topics introduced or practiced: **12**.
+- Documented mistake patterns: **9**, of which **3** currently need extra practice; the others have same-day improvement evidence but delayed retention is untested.
+
+## Skills and evidence
+
+- Written production and text-based conversation: practiced and corrected with examples.
+- Speaking/pronunciation: **not assessed** (no learner audio).
+- Listening: **not assessed** (no audible comprehension exercise).
+- Reading comprehension: **not separately assessed**.
+- Main strengths: introduction, present-tense sentences, simple questions, self-correction when given feedback.
+- Next focus: `weil` finite-verb-final position, punctuation before `weil`/`aber`, informal `du` vs formal `Sie`, `möchte` + infinitive, `mögen` with `Programmieren`, spellings and noun capitalization, and `Mir geht es gut`.
+
+## A1 references
 
 - `references/startbereit A1 - نسخة الكورس المسجل (1).pdf`
 - `references/الملحقات الجديدة.pdf`
 
-PDF contents not directly inspected in this lesson. Used original standard A1 instruction, not completion inferred from reference documents.
+References are source material only; neither PDF is completion evidence. Exact contents were not directly inspected in this session.
 
-## Next Step
+## Next study session
 
-Collect and correct E12–E15 using haben/Hunger/Durst. Keep the day open until learner ends it.
+Begin with a fresh **delayed recall** of the above errors, before additional new topics. Review queue is saved in `progress.json`. Offer to continue the unanswered text prompt about free time only if the learner wants conversation practice.
 
-## Synchronization note
+## Synchronization
 
-- Updated successfully: study day, progress.json, curriculum/verbs.md and curriculum/grammar.md.
-- Pending: curriculum/vocabulary.md (W005–W008 not yet written there) and MISTAKE_PATTERNS.md (M001/M002 not written there), after GitHub write safety checks blocked edits. Source details remain in progress.json and the day log.
+Checked 2026-10-09: the day log, `progress.json`, relevant curriculum and `MISTAKE_PATTERNS.md` were reconciled to the actual conversation. Day closed; no force push or destructive operation was used.
