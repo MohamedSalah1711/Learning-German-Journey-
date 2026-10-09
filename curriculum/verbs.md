@@ -6,5 +6,6 @@ Verbs are logged only when actually introduced in a post-reset study interaction
 
 | ID | Verb | Egyptian Arabic meaning | Praesens reference | Perfekt reference | Status | Evidence |
 | --- | --- | --- | --- | --- | --- | --- |
-| V001 | sein | يكون | ich bin; du bist; sie ist | — (not taught) | introduced; awaiting exercise | 2026-10-09-S01, E02 |
-| V002 | heißen | اسمه / يُدعى | ich heiße; du heißt; sie heißt | — (not taught) | introduced; awaiting exercise | 2026-10-09-S01, E01/E03 |
+| V001 | sein | يكون | ich bin; du bist; sie ist | — (not taught) | immediate retest correct; later retention pending | 2026-10-09-S01, E02, E05, E06 |
+| V002 | heißen | اسمه / يُدعى | ich heiße; du heißt; sie heißt | — (not taught) | immediate retest correct; later retention pending | 2026-10-09-S01, E01, E03, E07 |
+| V003 | wohnen | يسكن | ich wohne; du wohnst; sie wohnt | — (not taught) | introduced, new practice pending | 2026-10-09-S01, E08–E11 |
