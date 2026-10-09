@@ -225,9 +225,11 @@
         "meaning_ar": "جوع",
         "type": "noun",
         "article": "der",
-        "status": "introduced",
+        "status": "initial_independent_correct_pending_delayed_review",
         "evidence": [
-          "2026-10-09-S01"
+          "2026-10-09-S01",
+          "2026-10-09-S01-E12",
+          "2026-10-09-S01-E14"
         ]
       },
       {
@@ -236,9 +238,11 @@
         "meaning_ar": "عطش",
         "type": "noun",
         "article": "der",
-        "status": "introduced",
+        "status": "initial_independent_correct_pending_delayed_review",
         "evidence": [
-          "2026-10-09-S01"
+          "2026-10-09-S01",
+          "2026-10-09-S01-E13",
+          "2026-10-09-S01-E15"
         ]
       },
       {
