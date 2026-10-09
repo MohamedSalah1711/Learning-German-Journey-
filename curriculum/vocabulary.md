@@ -2,11 +2,11 @@
 
 Reset date: **2026-10-09**.
 
-No vocabulary entries are recorded after the reset.
-
-Use the A1 reference PDFs to choose practical words, but add an entry only after it is actually taught or practiced.
-
-For nouns, include article and plural when available.
+Only terms introduced during real study are listed. No post-reset mastery has been confirmed yet.
 
 | ID | German | Plural / reference form | Egyptian Arabic | Type | Status | Evidence |
 | --- | --- | --- | --- | --- | --- | --- |
+| W001 | Hallo | — | أهلاً / مرحباً | greeting | introduced | 2026-10-09-S01 |
+| W002 | Guten Morgen | — | صباح الخير | greeting | introduced | 2026-10-09-S01, E04 |
+| W003 | Tschüss | — | سلام / مع السلامة | greeting | introduced | 2026-10-09-S01 |
+| W004 | müde | — | تعبان | adjective | introduced | 2026-10-09-S01, E02 |
