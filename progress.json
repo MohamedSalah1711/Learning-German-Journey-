@@ -10,33 +10,33 @@
   "day_status": "open",
   "current_session_id": "2026-10-09-S01",
   "sessions_recorded": 1,
-  "active_topic": "A1 Wohnen: ich wohne / du wohnst / sie wohnt; Wo wohnst du?",
-  "next_action": "Correct E08–E11 on wohnen, in, wo and simple questions.",
+  "active_topic": "A1: haben and Hunger / Durst",
+  "next_action": "Correct E12–E15; keep session open.",
   "pending_exercises": [
     {
-      "id": "2026-10-09-S01-E08",
-      "prompt": "أنا ساكن في برلين.",
+      "id": "2026-10-09-S01-E12",
+      "prompt": "أنا جعان.",
       "status": "pending",
       "answer": null,
       "hint_used": null
     },
     {
-      "id": "2026-10-09-S01-E09",
-      "prompt": "إنت ساكن في هامبورج.",
+      "id": "2026-10-09-S01-E13",
+      "prompt": "هي عطشانة.",
       "status": "pending",
       "answer": null,
       "hint_used": null
     },
     {
-      "id": "2026-10-09-S01-E10",
-      "prompt": "هي ساكنة في ميونخ.",
+      "id": "2026-10-09-S01-E14",
+      "prompt": "إنت جعان؟",
       "status": "pending",
       "answer": null,
       "hint_used": null
     },
     {
-      "id": "2026-10-09-S01-E11",
-      "prompt": "إنت ساكن فين؟",
+      "id": "2026-10-09-S01-E15",
+      "prompt": "أنا عطشان.",
       "status": "pending",
       "answer": null,
       "hint_used": null
@@ -57,10 +57,10 @@
     }
   ],
   "totals": {
-    "numbered_verbs_introduced": 3,
+    "numbered_verbs_introduced": 4,
     "numbered_verbs_target": null,
-    "vocabulary_registered_entries_count": 6,
-    "grammar_topics_introduced": 3,
+    "vocabulary_registered_entries_count": 8,
+    "grammar_topics_introduced": 4,
     "mistake_patterns_active": 0
   },
   "verbs": {
@@ -92,14 +92,25 @@
         "verb": "wohnen",
         "meaning_ar": "يسكن",
         "praesens": "ich wohne; du wohnst; sie wohnt",
-        "status": "introduced_practice_pending",
+        "status": "initial_independent_correct",
+        "introduced_on": "2026-10-09",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "V004",
+        "verb": "haben",
+        "meaning_ar": "يمتلك / عنده",
+        "praesens": "ich habe; du hast; sie hat",
+        "status": "introduced_pending_practice",
         "introduced_on": "2026-10-09",
         "evidence": [
           "2026-10-09-S01"
         ]
       }
     ],
-    "introduced_total": 3
+    "introduced_total": 4
   },
   "vocabulary": {
     "items": [
@@ -148,7 +159,7 @@
         "word": "in",
         "meaning_ar": "في",
         "type": "preposition",
-        "status": "introduced",
+        "status": "practiced_correct",
         "evidence": [
           "2026-10-09-S01"
         ]
@@ -158,13 +169,35 @@
         "word": "wo",
         "meaning_ar": "أين / فين",
         "type": "question_word",
+        "status": "practiced_correct",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "W007",
+        "word": "Hunger",
+        "meaning_ar": "جوع",
+        "type": "noun",
+        "article": "der",
+        "status": "introduced",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "W008",
+        "word": "Durst",
+        "meaning_ar": "عطش",
+        "type": "noun",
+        "article": "der",
         "status": "introduced",
         "evidence": [
           "2026-10-09-S01"
         ]
       }
     ],
-    "registered_entries_count": 6,
+    "registered_entries_count": 8,
     "total_known": null
   },
   "grammar": {
@@ -190,7 +223,16 @@
       {
         "id": "G003",
         "title": "wohnen Präsens and Wo question",
-        "status": "introduced_practice_pending",
+        "status": "initial_independent_correct",
+        "date": "2026-10-09",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "G004",
+        "title": "haben present and yes/no questions",
+        "status": "introduced_pending_practice",
         "date": "2026-10-09",
         "evidence": [
           "2026-10-09-S01"
@@ -264,13 +306,16 @@
         "heißen",
         "wohnen (ich wohne / du wohnst / sie wohnt)",
         "in Berlin / Hamburg / München",
-        "Wo wohnst du?"
+        "Wo wohnst du?",
+        "haben present",
+        "Hunger, Durst",
+        "yes/no questions"
       ],
       "pending_exercise_ids": [
-        "2026-10-09-S01-E08",
-        "2026-10-09-S01-E09",
-        "2026-10-09-S01-E10",
-        "2026-10-09-S01-E11"
+        "2026-10-09-S01-E12",
+        "2026-10-09-S01-E13",
+        "2026-10-09-S01-E14",
+        "2026-10-09-S01-E15"
       ],
       "modality": "text",
       "exercise_results": [
@@ -332,6 +377,38 @@
           "note": "Correct du heißt and sentence initial uppercase.",
           "hint_used": false,
           "corrected_transfer_after_prior_feedback": true
+        },
+        {
+          "id": "2026-10-09-S01-E08",
+          "answer": "Ich wohne in Berlin.",
+          "correct": "Ich wohne in Berlin.",
+          "result": "independent_correct",
+          "note": "Correct ich wohne.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E09",
+          "answer": "Du wohnst in Hamburg.",
+          "correct": "Du wohnst in Hamburg.",
+          "result": "independent_correct",
+          "note": "Correct du wohnst.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E10",
+          "answer": "Sie wohnt in München.",
+          "correct": "Sie wohnt in München.",
+          "result": "independent_correct",
+          "note": "Correct sie wohnt.",
+          "hint_used": false
+        },
+        {
+          "id": "2026-10-09-S01-E11",
+          "answer": "Wo wohnst du ?",
+          "correct": "Wo wohnst du?",
+          "result": "independent_correct",
+          "note": "Correct word order; unnecessary space before question mark.",
+          "hint_used": false
         }
       ],
       "completed_exercise_ids": [
@@ -341,7 +418,11 @@
         "2026-10-09-S01-E04",
         "2026-10-09-S01-E05",
         "2026-10-09-S01-E06",
-        "2026-10-09-S01-E07"
+        "2026-10-09-S01-E07",
+        "2026-10-09-S01-E08",
+        "2026-10-09-S01-E09",
+        "2026-10-09-S01-E10",
+        "2026-10-09-S01-E11"
       ]
     }
   ],
@@ -370,6 +451,11 @@
       "date": "2026-10-09",
       "type": "lesson_issued",
       "note": "Introduced V003 wohnen, W005 in, W006 wo, G003 Wo question; E08–E11 pending."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "exercise_checkpoint",
+      "note": "E08-E11 4 correct, E11 extra space before punctuation; new haben lesson E12-E15 pending."
     }
   ]
 }
