@@ -5,14 +5,43 @@
   "reset_on": "2026-10-09",
   "reset_reason": "User requested clearing all progress data and adding A1 reference materials.",
   "current_level_goal": "A1",
-  "current_day": null,
-  "latest_day": null,
-  "day_status": "not_started",
-  "current_session_id": null,
-  "sessions_recorded": 0,
-  "active_topic": "A1 German from reference materials",
-  "next_action": "Offer the startup choices. If the learner chooses to study, start a fresh A1 study day.",
-  "pending_exercises": [],
+  "current_day": "2026-10-09",
+  "latest_day": "2026-10-09",
+  "day_status": "open",
+  "current_session_id": "2026-10-09-S01",
+  "sessions_recorded": 1,
+  "active_topic": "A1 greetings, pronouns, sein and heißen",
+  "next_action": "Await 4 independent German responses, correct and record results",
+  "pending_exercises": [
+    {
+      "id": "2026-10-09-S01-E01",
+      "prompt": "أنا اسمي محمد.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-09-S01-E02",
+      "prompt": "إنت تعبان.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-09-S01-E03",
+      "prompt": "هي اسمها مريم.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-09-S01-E04",
+      "prompt": "سلّم على شخص قابلته الصبح بالألماني.",
+      "status": "pending",
+      "answer": null,
+      "hint_used": null
+    }
+  ],
   "references": [
     {
       "id": "REF001",
@@ -28,38 +57,158 @@
     }
   ],
   "totals": {
-    "numbered_verbs_introduced": 0,
+    "numbered_verbs_introduced": 2,
     "numbered_verbs_target": null,
-    "vocabulary_registered_entries_count": 0,
-    "grammar_topics_introduced": 0,
+    "vocabulary_registered_entries_count": 4,
+    "grammar_topics_introduced": 2,
     "mistake_patterns_active": 0
   },
   "verbs": {
-    "items": [],
-    "introduced_total": 0
+    "items": [
+      {
+        "id": "V001",
+        "verb": "sein",
+        "meaning_ar": "يكون",
+        "praesens": "ich bin; du bist; sie ist",
+        "status": "introduced",
+        "introduced_on": "2026-10-09",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "V002",
+        "verb": "heißen",
+        "meaning_ar": "اسمه / يُدعى",
+        "praesens": "ich heiße; du heißt; sie heißt",
+        "status": "introduced",
+        "introduced_on": "2026-10-09",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      }
+    ],
+    "introduced_total": 2
   },
   "vocabulary": {
-    "items": [],
-    "registered_entries_count": 0,
+    "items": [
+      {
+        "id": "W001",
+        "word": "Hallo",
+        "meaning_ar": "أهلاً",
+        "type": "greeting",
+        "status": "introduced",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "W002",
+        "word": "Guten Morgen",
+        "meaning_ar": "صباح الخير",
+        "type": "greeting",
+        "status": "introduced",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "W003",
+        "word": "Tschüss",
+        "meaning_ar": "مع السلامة",
+        "type": "greeting",
+        "status": "introduced",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "W004",
+        "word": "müde",
+        "meaning_ar": "تعبان",
+        "type": "adjective",
+        "status": "introduced",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      }
+    ],
+    "registered_entries_count": 4,
     "total_known": null
   },
   "grammar": {
-    "topics": []
+    "topics": [
+      {
+        "id": "G001",
+        "title": "ich/du/sie + sein Präsens",
+        "status": "introduced",
+        "date": "2026-10-09",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      },
+      {
+        "id": "G002",
+        "title": "heißen Präsens",
+        "status": "introduced",
+        "date": "2026-10-09",
+        "evidence": [
+          "2026-10-09-S01"
+        ]
+      }
+    ]
   },
   "mistake_patterns": [],
   "skill_tracking": {
-    "speaking": { "status": "not_assessed", "evidence": [] },
-    "conversation": { "status": "not_assessed", "evidence": [] },
-    "reading": { "status": "not_assessed", "evidence": [] },
-    "listening": { "status": "not_assessed", "evidence": [] }
+    "speaking": {
+      "status": "not_assessed",
+      "evidence": []
+    },
+    "conversation": {
+      "status": "not_assessed",
+      "evidence": []
+    },
+    "reading": {
+      "status": "not_assessed",
+      "evidence": []
+    },
+    "listening": {
+      "status": "not_assessed",
+      "evidence": []
+    }
   },
   "review_queue": [],
-  "sessions": [],
+  "sessions": [
+    {
+      "id": "2026-10-09-S01",
+      "day": "2026-10-09",
+      "mode": "start_new_study_day",
+      "status": "active",
+      "started_at": null,
+      "topics": [
+        "A1 greetings",
+        "sein",
+        "heißen"
+      ],
+      "pending_exercise_ids": [
+        "2026-10-09-S01-E01",
+        "2026-10-09-S01-E02",
+        "2026-10-09-S01-E03",
+        "2026-10-09-S01-E04"
+      ],
+      "modality": "text"
+    }
+  ],
   "events": [
     {
       "date": "2026-10-09",
       "type": "reset",
       "note": "All prior progress data was cleared. A1 reference PDFs were added under references/."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "day_opened",
+      "note": "Session 2026-10-09-S01; beginner A1 lesson and four pending prompts. No answers or mastery claims."
     }
   ]
 }
