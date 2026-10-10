@@ -20,5 +20,5 @@ Only post-reset material from actual study interactions is recorded. Introduced 
 | G011 Sentence and noun capitalization and basic punctuation | practiced; errors observed | 2026-10-09 | E01–E29, C05, C08, C10 | next study day |
 | G012 Prepositions aus for origin and als for profession | introduced and practiced | 2026-10-09 | C06, C11 | next study day |
 
-| G013 kein for nouns, endings by gender and case (kein/keine/keinen) | introduced; E30/E32/E35 practice pending | 2026-10-09 | 2026-10-09-S02, E30/E32/E35 | after answers |
-| G014 nicht for adjectives, verbs and definite/possessive noun phrases; placement | introduced; E31/E33/E34 practice pending | 2026-10-09 | 2026-10-09-S02, E31/E33/E34 | after answers |
+| G013 Basic noun negation with kein/keine, and examples containing keinen (cases NOT taught) | beginner written usage correct; gender form with Buch needs practice; Akkusativ/Dativ intentionally deferred | 2026-10-09 | 2026-10-10-S01, E01-E17 | delayed review without case grammar |
+| G014 nicht for adjectives, actions, possessive noun phrases and location phrases | basic use practiced correctly; modal + nicht placement still needs review | 2026-10-09 | 2026-10-10-S01, E02/E04/E05/E07/E09/E10/E13/E14 | next study session |
