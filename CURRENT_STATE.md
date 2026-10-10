@@ -14,3 +14,5 @@ The learner specifically has NOT yet studied Akkusativ or Dativ. Do not treat th
 Counts: 4 numbered verbs, 7 supplemental verbs, 38 vocabulary items, 14 grammar topics.
 No audio pronunciation or listening assessments.
 Next action: beginner negation practice without case grammar. Day remains open.
+
+Current learning: The learner shared an image of 20 appearance nouns (Das Aussehen). Five are introduced for active recall in session 2026-10-10-S01: das Grübchen, das Muttermal, das Piercing, der Pony (hairstyle), das Tattoo. The image incorrectly uses das Pony for the hairstyle; German uses der Pony for bangs. Prompts E18-E22 are pending; no learner answers yet. The remaining 15 appearance words are neither studied nor counted yet. Current vocabulary register total: 43. Other state remains: day open; Akkusativ and Dativ not studied. Next: assess five word articles and plurals and introduce the following set only after the learner's answers.
