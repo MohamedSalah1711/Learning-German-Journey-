@@ -5,57 +5,14 @@
   "reset_on": "2026-10-09",
   "reset_reason": "User requested clearing all progress data and adding A1 reference materials.",
   "current_level_goal": "A1",
-  "current_day": "2026-10-09",
-  "latest_day": "2026-10-09",
-  "day_status": "reopened",
-  "current_session_id": "2026-10-09-S02",
-  "sessions_recorded": 2,
-  "active_topic": "A1 negation: kein vs nicht and placement; masculine Akkusativ keinen",
-  "next_action": "Await E30-E35 Arabic-to-German translations; correct without assuming mastery.",
-  "pending_exercises": [
-    {
-      "id": "2026-10-09-S02-E30",
-      "prompt": "أنا معنديش شنطة.",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    },
-    {
-      "id": "2026-10-09-S02-E31",
-      "prompt": "أنا مش تعبان.",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    },
-    {
-      "id": "2026-10-09-S02-E32",
-      "prompt": "هو معندوش أخ.",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    },
-    {
-      "id": "2026-10-09-S02-E33",
-      "prompt": "أنا مش ساكن في برلين.",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    },
-    {
-      "id": "2026-10-09-S02-E34",
-      "prompt": "دي مش عربيتي.",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    },
-    {
-      "id": "2026-10-09-S02-E35",
-      "prompt": "أنا مش جعان.",
-      "status": "pending",
-      "answer": null,
-      "hint_used": null
-    }
-  ],
+  "current_day": "2026-10-10",
+  "latest_day": "2026-10-10",
+  "day_status": "open",
+  "current_session_id": "2026-10-10-S01",
+  "sessions_recorded": 3,
+  "active_topic": "A1 beginner negation: kein/nicht, no case grammar",
+  "next_action": "Continue basic kein/nicht drills, avoiding deliberate Akkusativ or Dativ teaching; record next responses.",
+  "pending_exercises": [],
   "references": [
     {
       "id": "REF001",
@@ -75,7 +32,7 @@
     "numbered_verbs_target": null,
     "vocabulary_registered_entries_count": 38,
     "grammar_topics_introduced": 14,
-    "mistake_patterns_active": 3
+    "mistake_patterns_active": 6
   },
   "verbs": {
     "items": [
@@ -559,9 +516,10 @@
         "meaning_ar": "ولا / مفيش",
         "type": "negative_article",
         "reference_form": "forms: kein/keine/keinen",
-        "status": "introduced_practice_pending",
+        "status": "practiced_in_text_not_mastered",
         "evidence": [
-          "2026-10-09-S02"
+          "2026-10-09-S02",
+          "2026-10-10-S01"
         ]
       },
       {
@@ -571,9 +529,10 @@
         "type": "noun",
         "article": "das",
         "reference_form": "plural Bücher",
-        "status": "introduced_practice_pending",
+        "status": "practiced_in_text_not_mastered",
         "evidence": [
-          "2026-10-09-S02"
+          "2026-10-09-S02",
+          "2026-10-10-S01"
         ]
       },
       {
@@ -583,9 +542,10 @@
         "type": "noun",
         "article": "der",
         "reference_form": "plural Brüder",
-        "status": "introduced_practice_pending",
+        "status": "practiced_in_text_not_mastered",
         "evidence": [
-          "2026-10-09-S02"
+          "2026-10-09-S02",
+          "2026-10-10-S01"
         ]
       },
       {
@@ -595,9 +555,10 @@
         "type": "noun",
         "article": "die",
         "reference_form": "plural Taschen",
-        "status": "introduced_practice_pending",
+        "status": "practiced_in_text_not_mastered",
         "evidence": [
-          "2026-10-09-S02"
+          "2026-10-09-S02",
+          "2026-10-10-S01"
         ]
       },
       {
@@ -607,9 +568,10 @@
         "type": "noun",
         "article": "das",
         "reference_form": "plural Autos",
-        "status": "introduced_practice_pending",
+        "status": "practiced_in_text_not_mastered",
         "evidence": [
-          "2026-10-09-S02"
+          "2026-10-09-S02",
+          "2026-10-10-S01"
         ]
       },
       {
@@ -619,9 +581,10 @@
         "type": "noun",
         "article": "der",
         "reference_form": "plural Tische",
-        "status": "introduced_practice_pending",
+        "status": "practiced_in_text_not_mastered",
         "evidence": [
-          "2026-10-09-S02"
+          "2026-10-09-S02",
+          "2026-10-10-S01"
         ]
       }
     ],
@@ -730,7 +693,7 @@
         "id": "G011",
         "title": "Capitalization and basic sentence/question punctuation",
         "date": "2026-10-09",
-        "status": "introduced_or_practiced_not_mastered",
+        "status": "revisited; capitalization_errors_today",
         "evidence": [
           "2026-10-09-S01"
         ],
@@ -750,7 +713,7 @@
         "id": "G013",
         "title": "Negation: kein for bare/indefinite nouns; case/gender agreement",
         "date": "2026-10-09",
-        "status": "introduced_practice_pending",
+        "status": "basic_usage_practiced; case_system_not_taught",
         "evidence": [
           "2026-10-09-S02"
         ]
@@ -759,7 +722,7 @@
         "id": "G014",
         "title": "Negation: nicht for adjectives, verbs, noun phrases with definite/possessive determiners; placement",
         "date": "2026-10-09",
-        "status": "introduced_practice_pending",
+        "status": "basic_usage_practiced; placement_with_modals_needs_retry",
         "evidence": [
           "2026-10-09-S02"
         ]
@@ -773,9 +736,13 @@
       "description": "Lowercase initial pronoun at start of German sentence (ich/sie).",
       "evidence": [
         "2026-10-09-S01-E01",
-        "2026-10-09-S01-E03"
+        "2026-10-09-S01-E03",
+        "2026-10-10-S01-E01",
+        "2026-10-10-S01-E03",
+        "2026-10-10-S01-E04",
+        "2026-10-10-S01-E08"
       ],
-      "status": "immediate_retest_correct_monitoring",
+      "status": "active",
       "first_observed_on": "2026-10-09",
       "retest_evidence": [
         "2026-10-09-S01-E05",
@@ -904,6 +871,46 @@
       "first_observed_on": "2026-10-09",
       "retest_evidence": [],
       "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M010",
+      "type": "spelling",
+      "description": "Omitted t in ist: Das is kein Buch / Das is kein Tisch in E11/E15.",
+      "evidence": [
+        "2026-10-10-S01-E11",
+        "2026-10-10-S01-E15"
+      ],
+      "status": "immediate_retest_correct_monitoring",
+      "retest_evidence": [
+        "2026-10-10-S01-E16",
+        "2026-10-10-S01-E17"
+      ],
+      "first_observed_on": "2026-10-10",
+      "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M011",
+      "type": "negative_determiner_form",
+      "description": "E08 learner wrote keinen Buch; the memorized expression here is kein Buch (neuter); learner has not yet studied case systems.",
+      "evidence": [
+        "2026-10-10-S01-E08"
+      ],
+      "status": "active",
+      "retest_evidence": [],
+      "first_observed_on": "2026-10-10",
+      "delayed_retention": "not_assessed"
+    },
+    {
+      "id": "M012",
+      "type": "verb_and_negation_position",
+      "description": "E10 wrote Ich wolle heute arbeiten nicht; target Ich möchte heute nicht arbeiten; modal form and nicht position need review.",
+      "evidence": [
+        "2026-10-10-S01-E10"
+      ],
+      "status": "active",
+      "retest_evidence": [],
+      "first_observed_on": "2026-10-10",
+      "delayed_retention": "not_assessed"
     }
   ],
   "skill_tracking": {
@@ -976,6 +983,15 @@
       "interval_index": 0,
       "status": "pending",
       "reason": "Question marks, und/aber/weil commas, Deutsch/Ägypten/weil/Programmieren"
+    },
+    {
+      "id": "RQ-NEG01",
+      "mode": "grammar",
+      "target_key": "kein_nicht_basic",
+      "due_on": "2026-10-11",
+      "interval_index": 0,
+      "status": "pending",
+      "reason": "E01–E17 practice correct negation choices, need delayed review; no cases taught"
     }
   ],
   "sessions": [
@@ -1398,7 +1414,7 @@
       "id": "2026-10-09-S02",
       "day": "2026-10-09",
       "mode": "targeted_review",
-      "status": "active",
+      "status": "completed",
       "started_at": null,
       "topics": [
         "kein to negate nouns",
@@ -1406,7 +1422,13 @@
         "nicht for verbs, adjectives, definite and possessive phrases",
         "nicht placement"
       ],
-      "pending_exercise_ids": [
+      "pending_exercise_ids": [],
+      "modality": "text",
+      "exercise_results": [],
+      "completed_exercise_ids": [],
+      "reference": "user-shared image of kein/nicht A1 handout",
+      "ended_at": null,
+      "unanswered_prompts_issued_on_date_and_answered_next_date": [
         "2026-10-09-S02-E30",
         "2026-10-09-S02-E31",
         "2026-10-09-S02-E32",
@@ -1414,10 +1436,206 @@
         "2026-10-09-S02-E34",
         "2026-10-09-S02-E35"
       ],
+      "continuation_reference": "Original E30–E35 prompts from 2026-10-09 are answered as 2026-10-10-S01-E01–E06; each response counted once, on date actually received."
+    },
+    {
+      "id": "2026-10-10-S01",
+      "day": "2026-10-10",
+      "mode": "targeted_review",
+      "status": "active",
+      "started_at": null,
+      "topics": [
+        "Basic kein/nicht usage",
+        "Nominative: kein Auto, keine Tasche, kein Buch",
+        "nicht with adjective/prepositional phrase",
+        "spelling ist",
+        "sentence/noun capitalization"
+      ],
+      "pending_exercise_ids": [],
       "modality": "text",
-      "exercise_results": [],
-      "completed_exercise_ids": [],
-      "reference": "user-shared image of kein/nicht A1 handout"
+      "exercise_results": [
+        {
+          "id": "2026-10-10-S01-E01",
+          "answer": "Ich habe keine tasche",
+          "correct": "Ich habe keine Tasche.",
+          "result": "grammar_correct_capitalization_issue",
+          "note": "Correct keine with Tasche; noun capitalization",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E02",
+          "answer": "Ich bin nicht müde",
+          "correct": "Ich bin nicht müde.",
+          "result": "independent_correct",
+          "note": "Correct adjective negation",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E03",
+          "answer": "er hat keinen bruder",
+          "correct": "Er hat keinen Bruder.",
+          "result": "grammar_correct_capitalization_issue",
+          "note": "Correct phrase with keinen; upper-case sentence start and noun; case theory not yet learned",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E04",
+          "answer": "Ich wohne nicht in berlin",
+          "correct": "Ich wohne nicht in Berlin.",
+          "result": "grammar_correct_capitalization_issue",
+          "note": "Correct negation; capitalize city name",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E05",
+          "answer": "Das ist nicht mein Auto",
+          "correct": "Das ist nicht mein Auto.",
+          "result": "independent_correct",
+          "note": "Correct possessive noun-phrase negation",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E06",
+          "answer": "Ich habe keinen Hunger",
+          "correct": "Ich habe keinen Hunger.",
+          "result": "independent_correct",
+          "note": "Correct expression; not evidence of Akkusativ mastery",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E07",
+          "answer": "Das ist nicht mein Buch.",
+          "correct": "Das ist nicht mein Buch.",
+          "result": "independent_correct",
+          "note": "Correct possessive noun-phrase negation",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E08",
+          "answer": "Ich habe ein Auto, aber Ich habe keinen Buch.",
+          "correct": "Ich habe ein Auto, aber ich habe kein Buch.",
+          "result": "needs_retry",
+          "note": "Buch takes kein; lowercase ich after aber; defer accusative teaching",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E09",
+          "answer": "Mein Bruder ist nicht müde.",
+          "correct": "Mein Bruder ist nicht müde.",
+          "result": "independent_correct",
+          "note": "Correct predicate adjective negation",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E10",
+          "answer": "Ich wolle heute arbeiten nicht.",
+          "correct": "Ich möchte heute nicht arbeiten.",
+          "result": "needs_retry",
+          "note": "Wrong finite modal verb and nicht placement; valid alternate Ich will heute nicht arbeiten.",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E11",
+          "answer": "Das is kein Buch",
+          "correct": "Das ist kein Buch.",
+          "result": "correct_negation_spelling_issue",
+          "note": "is -> ist",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E12",
+          "answer": "Das ist keine Tasche",
+          "correct": "Das ist keine Tasche.",
+          "result": "independent_correct",
+          "note": "Correct nominative feminine keine",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E13",
+          "answer": "Ich bin nicht müde",
+          "correct": "Ich bin nicht müde.",
+          "result": "independent_correct",
+          "note": "Correct nicht with predicate adjective",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E14",
+          "answer": "Ich wohne nicht in Berlin",
+          "correct": "Ich wohne nicht in Berlin.",
+          "result": "independent_correct",
+          "note": "Correct nicht with prepositional phrase",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E15",
+          "answer": "Das is kein Tisch",
+          "correct": "Das ist kein Tisch.",
+          "result": "correct_negation_spelling_issue",
+          "note": "is -> ist",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": false
+        },
+        {
+          "id": "2026-10-10-S01-E16",
+          "answer": "Das ist ein Buch.",
+          "correct": "Das ist ein Buch.",
+          "result": "independent_correct",
+          "note": "Correct final spelling ist in immediate retry",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": true
+        },
+        {
+          "id": "2026-10-10-S01-E17",
+          "answer": "Das ist kein Tisch.",
+          "correct": "Das ist kein Tisch.",
+          "result": "independent_correct",
+          "note": "Correct ist spelling and kein immediately after feedback",
+          "hint_used": false,
+          "corrected_transfer_after_prior_feedback": true
+        }
+      ],
+      "completed_exercise_ids": [
+        "2026-10-10-S01-E01",
+        "2026-10-10-S01-E02",
+        "2026-10-10-S01-E03",
+        "2026-10-10-S01-E04",
+        "2026-10-10-S01-E05",
+        "2026-10-10-S01-E06",
+        "2026-10-10-S01-E07",
+        "2026-10-10-S01-E08",
+        "2026-10-10-S01-E09",
+        "2026-10-10-S01-E10",
+        "2026-10-10-S01-E11",
+        "2026-10-10-S01-E12",
+        "2026-10-10-S01-E13",
+        "2026-10-10-S01-E14",
+        "2026-10-10-S01-E15",
+        "2026-10-10-S01-E16",
+        "2026-10-10-S01-E17"
+      ],
+      "linked_prior_prompt_ids": [
+        "2026-10-09-S02-E30",
+        "2026-10-09-S02-E31",
+        "2026-10-09-S02-E32",
+        "2026-10-09-S02-E33",
+        "2026-10-09-S02-E34",
+        "2026-10-09-S02-E35"
+      ],
+      "comments": "learner clarified Akkusativ and Dativ have NOT been studied; defer explicit case teaching"
     }
   ],
   "events": [
@@ -1465,6 +1683,16 @@
       "date": "2026-10-09",
       "type": "reopen",
       "note": "After explicit closure, learner requested explanation and exercises for kein/nicht from image. Reopened same day file and started session S02; E30–E35 pending."
+    },
+    {
+      "date": "2026-10-10",
+      "type": "date_rollover",
+      "note": "Prior day session S02 closed with original prompts E30–E35 carried to Oct 10; answers stored only as E01–E06 in new day, avoiding duplication."
+    },
+    {
+      "date": "2026-10-10",
+      "type": "written_negation_exercises",
+      "note": "17 actual learner replies assessed E01–E17. User explicitly not studied Akkusativ or Dativ; record neither as learned. Immediate correct retry of ist on E16–E17."
     }
   ]
 }
