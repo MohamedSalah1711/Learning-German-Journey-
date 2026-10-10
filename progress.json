@@ -10,9 +10,45 @@
   "day_status": "open",
   "current_session_id": "2026-10-10-S01",
   "sessions_recorded": 3,
-  "active_topic": "A1 beginner negation: kein/nicht, no case grammar",
-  "next_action": "Continue basic kein/nicht drills, avoiding deliberate Akkusativ or Dativ teaching; record next responses.",
-  "pending_exercises": [],
+  "active_topic": "Memorization: Das Aussehen, five words first group",
+  "next_action": "Assess E18-E22 recall of articles, singular, plural for Grübchen/Muttermal/Piercing/Pony/Tattoo; correct before introducing next group.",
+  "pending_exercises": [
+    {
+      "id": "2026-10-10-S01-E18",
+      "prompt": "الغمازة — اكتب الأداة + المفرد + الجمع.",
+      "answer": null,
+      "status": "pending",
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-10-S01-E19",
+      "prompt": "الشامة — اكتب الأداة + المفرد + الجمع.",
+      "answer": null,
+      "status": "pending",
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-10-S01-E20",
+      "prompt": "ثقب/حِلية للزينة — اكتب الأداة + المفرد + الجمع.",
+      "answer": null,
+      "status": "pending",
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-10-S01-E21",
+      "prompt": "الغُرّة الأمامية للشعر — اكتب الأداة + المفرد + الجمع.",
+      "answer": null,
+      "status": "pending",
+      "hint_used": null
+    },
+    {
+      "id": "2026-10-10-S01-E22",
+      "prompt": "الوشم — اكتب الأداة + المفرد + الجمع.",
+      "answer": null,
+      "status": "pending",
+      "hint_used": null
+    }
+  ],
   "references": [
     {
       "id": "REF001",
@@ -30,7 +66,7 @@
   "totals": {
     "numbered_verbs_introduced": 4,
     "numbered_verbs_target": null,
-    "vocabulary_registered_entries_count": 38,
+    "vocabulary_registered_entries_count": 43,
     "grammar_topics_introduced": 14,
     "mistake_patterns_active": 6
   },
@@ -586,9 +622,74 @@
           "2026-10-09-S02",
           "2026-10-10-S01"
         ]
+      },
+      {
+        "id": "W039",
+        "word": "Grübchen",
+        "article": "das",
+        "plural": "Grübchen",
+        "meaning_ar": "الغمازة",
+        "type": "noun",
+        "status": "introduced_pending_recall",
+        "tip": "-chen diminutive, das",
+        "evidence": [
+          "2026-10-10-S01"
+        ]
+      },
+      {
+        "id": "W040",
+        "word": "Muttermal",
+        "article": "das",
+        "plural": "Muttermale",
+        "meaning_ar": "الشامة",
+        "type": "noun",
+        "status": "introduced_pending_recall",
+        "tip": "plural +e",
+        "evidence": [
+          "2026-10-10-S01"
+        ]
+      },
+      {
+        "id": "W041",
+        "word": "Piercing",
+        "article": "das",
+        "plural": "Piercings",
+        "meaning_ar": "ثقب/حِلية للزينة",
+        "type": "noun",
+        "status": "introduced_pending_recall",
+        "tip": "plural +s",
+        "evidence": [
+          "2026-10-10-S01"
+        ]
+      },
+      {
+        "id": "W042",
+        "word": "Pony",
+        "article": "der",
+        "plural": "Ponys",
+        "meaning_ar": "الغُرّة الأمامية للشعر",
+        "type": "noun",
+        "status": "introduced_pending_recall",
+        "tip": "For hairstyle der Pony, not das Pony (small horse)",
+        "evidence": [
+          "2026-10-10-S01"
+        ]
+      },
+      {
+        "id": "W043",
+        "word": "Tattoo",
+        "article": "das",
+        "plural": "Tattoos",
+        "meaning_ar": "الوشم",
+        "type": "noun",
+        "status": "introduced_pending_recall",
+        "tip": "plural +s",
+        "evidence": [
+          "2026-10-10-S01"
+        ]
       }
     ],
-    "registered_entries_count": 38,
+    "registered_entries_count": 43,
     "total_known": null
   },
   "grammar": {
@@ -1449,9 +1550,16 @@
         "Nominative: kein Auto, keine Tasche, kein Buch",
         "nicht with adjective/prepositional phrase",
         "spelling ist",
-        "sentence/noun capitalization"
+        "sentence/noun capitalization",
+        "Das Aussehen: image vocabulary set 1/4, five words, articles and plural"
       ],
-      "pending_exercise_ids": [],
+      "pending_exercise_ids": [
+        "2026-10-10-S01-E18",
+        "2026-10-10-S01-E19",
+        "2026-10-10-S01-E20",
+        "2026-10-10-S01-E21",
+        "2026-10-10-S01-E22"
+      ],
       "modality": "text",
       "exercise_results": [
         {
@@ -1693,6 +1801,11 @@
       "date": "2026-10-10",
       "type": "written_negation_exercises",
       "note": "17 actual learner replies assessed E01–E17. User explicitly not studied Akkusativ or Dativ; record neither as learned. Immediate correct retry of ist on E16–E17."
+    },
+    {
+      "date": "2026-10-10",
+      "type": "vocabulary_lesson",
+      "note": "Learner shared image with 20 appearance nouns; introduced first five only for spaced active recall. Corrected hair-fringe article der Pony (image erroneously lists das Pony). No answers or mastery yet."
     }
   ]
 }
