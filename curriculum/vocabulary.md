@@ -45,3 +45,9 @@ Only terms introduced during real study are listed. No post-reset mastery has be
 | W036 | die Tasche | Taschen | شنطة | noun | introduced | 2026-10-09-S02, E30 |
 | W037 | das Auto | Autos | عربية | noun | introduced | 2026-10-09-S02, E34 |
 | W038 | der Tisch | Tische | ترابيزة | noun | introduced | 2026-10-09-S02 |
+
+| W039 | das Grübchen | Grübchen | الغمازة | noun | introduced; active recall pending | 2026-10-10-S01, appearance vocabulary image |
+| W040 | das Muttermal | Muttermale | الشامة | noun | introduced; active recall pending | 2026-10-10-S01, appearance vocabulary image |
+| W041 | das Piercing | Piercings | ثقب/حِلية للزينة | noun | introduced; active recall pending | 2026-10-10-S01, appearance vocabulary image |
+| W042 | der Pony | Ponys | الغُرّة الأمامية للشعر | noun | introduced; active recall pending | 2026-10-10-S01, appearance vocabulary image |
+| W043 | das Tattoo | Tattoos | الوشم | noun | introduced; active recall pending | 2026-10-10-S01, appearance vocabulary image |
