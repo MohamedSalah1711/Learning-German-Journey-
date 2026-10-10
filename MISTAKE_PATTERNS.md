@@ -76,3 +76,7 @@ Reset date: **2026-10-09**. All examples below derive from actual post-reset wri
 
 - All evidence is written German, not audio. No pronunciation, audible listening comprehension or oral fluency assessed.
 - Priority next session: weil + verb-final, question forms for du/Sie, punctuation/capitalization, spelling of Deutsch/Ägypten/weil/Programmieren, idiomatic Mir geht es gut, and verb forms including wohnen.
+
+## 2026-10-10 notes
+
+E01/E03/E04/E08: noun/city/sentence capitalization mistakes. E08: kein Buch form confusion; cases not studied yet. E10: modal form and position of nicht. E11 and E15: wrote is instead of ist; corrected on E16/E17. Same-day improvement only; assess later recall.
