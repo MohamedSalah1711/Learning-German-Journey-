@@ -1,38 +1,16 @@
 # Current State
 
-Last reset: **2026-10-09**.
+Reset date: 2026-10-09.
+Level goal: A1.
 
-## Study summary
+Latest study day: 2026-10-10, currently OPEN.
+Active session: 2026-10-10-S01.
+Prior day 2026-10-09: CLOSED. Its last six prompted questions were answered on Oct 10.
 
-- Level goal: **A1**, not yet certified.
-- Active date: **2026-10-09** Europe/Berlin.
-- Day status: **reopened** after prior Closure 1, which remains preserved in the day file.
-- Current session: **2026-10-09-S02** (text-based A1 grammar lesson on **kein vs nicht**).
-- Previous session: **2026-10-09-S01** completed and closed earlier on the same date.
-- Previously recorded: **29** completed translation answers E01–E29 and **14** written conversation responses C01–C14.
-- New exercises E30–E35: **6 pending**, no answers yet.
-- Text conversation question "Was machst du gern in deiner Freizeit?" remains optional later; not completed.
+Oct 10 recorded 17 written responses, E01-E17. Negation with kein and nicht generally correct. Noun capitalization needs review. The spellings Das is were corrected to Das ist in the immediate retry. The form kein Buch and modal constructions with nicht need more practice.
 
-## Curriculum
+The learner specifically has NOT yet studied Akkusativ or Dativ. Do not treat them as learned. Explain simple kein/nicht negation first.
 
-- Numbered verbs: **4** (sein, heißen, wohnen, haben); **7** supplemental verbs encountered.
-- Vocabulary/expressions introduced or registered: **38**. New W033–W038: kein, Buch, Bruder, Tasche, Auto, Tisch. Existing nicht (W012) was revisited.
-- Grammar topics introduced: **14**. G013: noun negation with kein/keine/keinen, including masculine Accusative; G014: nicht negation and position relative to adjectives, actions, definite or possessive noun phrases.
-- Both new grammar topics are **introduced only**; correctness not assessed until the learner submits E30–E35.
-- 9 previously observed mistake patterns, 3 requiring further attention; no new learner mistakes from this lesson yet.
-- User-supplied A1 image was used as the lesson source; the repository reference PDFs were not inspected in this turn.
-
-## Skills
-
-- Written German and written conversation previously practiced.
-- Pronunciation, audio listening, and spoken fluency: **not assessed**.
-
-## Next step
-
-Collect answers for E30–E35 and correct each, logging original answers, errors and retry evidence without assuming proficiency. Keep the same date's study day reopened until learner says they are done.
-
-## Repository synchronization
-
-- Same day file: `days/2026-10-09.md` (reopened, session S02).
-- `progress.json`, `curriculum/grammar.md`, and `curriculum/vocabulary.md` updated for this new lesson.
-- Prior closure and all historical post-reset answers preserved.
+Counts: 4 numbered verbs, 7 supplemental verbs, 38 vocabulary items, 14 grammar topics.
+No audio pronunciation or listening assessments.
+Next action: beginner negation practice without case grammar. Day remains open.
